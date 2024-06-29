@@ -1,1 +1,1 @@
-# rsschool-cv2024
+# rsschool-cv
