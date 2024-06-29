@@ -18,6 +18,10 @@
 ## Education
 
 - [MIREA - Russian Technological University](https://english.mirea.ru/)
+- [HTML для начинающих: https://ru.code-basics.com/languages/html](https://ru.code-basics.com/languages/html)
+  ![HTML для начинающих](img/HTML-course-complete-Screenshot.png)
+- [CSS для начинающих: https://ru.code-basics.com/languages/css](https://ru.code-basics.com/languages/css)
+  ![CSS для начинающих](img/CSS-course-complete-Screenshot.png)
 
 ## Code example
 
