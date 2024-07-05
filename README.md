@@ -1,1 +1,3 @@
-# rsschool-cv2024
+https://MariaKM.github.io/rsschool-cv/cv
+
+https://MariaKM.github.io/rsschool-cv/
