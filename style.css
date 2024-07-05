@@ -1,1 +1,65 @@
-p {color: #272f8b;}
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto',  sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;  
+  background-color:#e0f0ff;  
+}
+
+.box {
+  max-width: 1440px;
+  margin: 0 auto;  
+}
+
+h1,
+h2,
+h3 {
+  font-size: 30px;
+  text-transform: uppercase;  
+  letter-spacing: 7px;
+  word-spacing: 5px;
+  color: #db5323;  
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  color: #db5323;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 300;  
+  color: #175676;
+}
