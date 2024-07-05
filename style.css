@@ -1,0 +1,181 @@
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto',  sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;  
+  background-color:#e0f0ff;  
+}
+
+.box {
+  max-width: 1440px;
+  margin: 0 auto;  
+}
+
+h1,
+h2,
+h3 {
+  font-size: 30px;
+  text-transform: uppercase;  
+  letter-spacing: 7px;
+  word-spacing: 5px;
+  color: #db5323;  
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  color: #db5323;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 300;  
+  color: #175676;
+}
+.header,
+.footer {
+  width: 100vw;
+  background-color: #175676;
+}
+
+.main {  
+  background-color: #CCE6F4;
+}
+
+.main_content_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;  
+  flex: 1 0 auto;
+}
+
+.main_content_heading {  
+  border-bottom: 10px solid #88c0e3;
+}
+
+.main_content_heading > section.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_content_container > section {
+  width: 40%;  
+  margin: 0 0 2px 2px;
+  padding: 20px;
+  background-color:#e0f0ff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 24px;
+  color: #ffffff;  
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  list-style: none;  
+}
+
+.nav-link {
+  padding: 5px 20px;
+  margin: 0 20px;
+  background-color: #CCE6F4;
+  font-size: 20px;
+  line-height: 50px;
+  border-radius: 2%;
+  text-decoration: none;
+  color: #175676;
+  transition: 0.3s;  
+}
+
+.nav-link:hover {
+  background-color: rgba(224, 240, 255, 0.5);
+  color: #000;
+}
+
+.section-content {
+  list-style-type:circle;
+}
+
+a {
+  text-decoration: none;
+  color: #175676;
+}
+
+a:hover {
+  color: #000000;
+  transition: 0.5s;
+}
+
+.pre {
+  width: 70%;
+  margin: 5px 0;
+  padding: 5px 10px;
+  border-left: 5px solid #88c0e3;  
+  background-color: #CCE6F4;  
+}
+
+.github-link {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.github-link:hover {
+  color: #000;
+}
+
+.profile_photo {
+  width: 250px;
+  height: 250px;
+  padding: 0 10px;
+}
+
+.logo-rs-school {
+  width: 100px;
+  height: auto;
+  padding: 2px 0 0 0;
+}
+
+@media (max-width: 768px) {
+  .main_content_container>section {
+    width: 100%;
+  }
+}
